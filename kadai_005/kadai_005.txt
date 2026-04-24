@@ -1,0 +1,22 @@
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\093111_226308\Desktop\samurai-terakoya
+
+
+Mode                 LastWriteTime         Length Name                                                                       
+----                 -------------         ------ ----                                                                       
+d-----        2026/04/24     15:43                git_challenge                                                              
+
+
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> cd git_challenge
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git init
+Initialized empty Git repository in C:/Users/093111_226308/Desktop/samurai-terakoya/git_challenge/.git/
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git add hello_world.txt              
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git commit -m "hello_world.txtを追加"
+[main 1817000] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git add hello_world.txt              
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git commit -m "日本語訳を追記"       
+[main 1f6b7a7] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)

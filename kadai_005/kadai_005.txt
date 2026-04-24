@@ -1,0 +1,35 @@
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> git config --global user.name "magarahayato"            
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> git config --global user.email "magara_hayato@koushi-intec.co.jp"
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> git config --global user.name
+magarahayato
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> git config --global user.email
+magara_hayato@koushi-intec.co.jp
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> git config init.defaultBranch
+main
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\093111_226308\Desktop\samurai-terakoya
+
+
+Mode                 LastWriteTime         Length Name                                                                       
+----                 -------------         ------ ----                                                                       
+d-----        2026/04/24     17:06                git_challenge                                                              
+
+
+PS C:\Users\093111_226308\Desktop\samurai-terakoya> cd git_challenge
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git init
+Initialized empty Git repository in C:/Users/093111_226308/Desktop/samurai-terakoya/git_challenge/.git/
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git add hello_world.txt
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git commit -m "hello_world.txtを追加"                       
+[main (root-commit) a85e02d] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git add hello_world.txt              
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git commit -m "日本語訳を追記"       
+[main 6d23e8f] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git log --oneline
+6d23e8f (HEAD -> main) 日本語訳を追記
+a85e02d hello_world.txtを追加
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> 

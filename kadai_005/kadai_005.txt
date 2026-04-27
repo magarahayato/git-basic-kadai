@@ -12,6 +12,7 @@ d-----        2026/04/27      9:43                git_challenge
 PS C:\Users\093111_226308\Desktop\samurai-terakoya> cd git_challenge
 PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git init
 Initialized empty Git repository in C:/Users/093111_226308/Desktop/samurai-terakoya/git_challenge/.git/
+PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> echo Hello, world! >> hello_world.txt
 PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git add hello_world.txt
 PS C:\Users\093111_226308\Desktop\samurai-terakoya\git_challenge> git commit -m "hello_world.txtを追加"
 [main (root-commit) 9344ebe] hello_world.txtを追加
